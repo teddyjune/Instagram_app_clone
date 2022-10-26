@@ -80,7 +80,7 @@ class HomePage extends StatelessWidget {
                       ],
                     ),
                     const SizedBox(height: 10),
-                    ElevatedButton(onPressed: () {}, child: Text('팔로우')),
+                    ElevatedButton(onPressed: () {}, child: const Text('팔로우')),
                     const SizedBox(height: 10),
                     const Text('Facebook 친구'),
                   ],

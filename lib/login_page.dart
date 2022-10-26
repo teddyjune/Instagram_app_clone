@@ -12,11 +12,11 @@ class LoginPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(
+              const Text(
                 'Insatgram Clone',
                 style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
               ),
-              SizedBox(height: 80),
+              const SizedBox(height: 80),
               SignInButton(Buttons.google, onPressed: () {})
             ],
           ),
